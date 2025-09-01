@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bridge Group Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">Bridge Group Solutions</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>We build fast, secure, and user-friendly websites</h1>
+        <p>That convert visitors into customers and scale with your business.</p>
+        <a href="#services" class="btn">Our Services</a>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p>From web development to digital transformation, we engineer secure, scalable, and intuitive web solutions.</p>
+        <ul>
+          <li>Custom Web Development</li>
+          <li>CRM & Cloud Solutions</li>
+          <li>Cybersecurity</li>
+          <li>Digital Transformation</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Established in 2014, Bridge Group Solutions has grown from a niche outsourcing company into a trusted name in digital transformation.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Let's Talk</h2>
+        <p>Ready to unlock growth with tailored tech strategies? Get in touch with our team today.</p>
+        <form id="contact-form">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <textarea name="message" placeholder="How can we help?" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+          <div class="form-status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Bridge Group Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
